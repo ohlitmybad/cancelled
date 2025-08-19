@@ -1,0 +1,18 @@
+{
+  "cancellation": {
+    "title": "Gitmenize üzüldük!",
+    "message": "Aboneliğiniz başarıyla iptal edildi.<br><br><strong>DataMB Pro</strong>'ya erişim hemen sona erdi. Bu süreç otomatiktir ve maalesef kontrolümüz dışındadır.<br><br>Ödediğiniz dönemin geri kalanında Pro'yu kullanmaya devam etmek isterseniz, lütfen bizimle iletişime geçin.",
+    "back_to_free": "Ücretsiz siteye dön",
+    "resubscribe": "Pro'ya yeniden abone ol",
+    "contact": "Bize ulaşın"
+  },
+  "feedback": {
+    "title": "Gitmeye karar vermenize ne sebep oldu?",
+    "placeholder": "Geri bildiriminiz gelişmemize yardımcı olur...",
+    "submit": "Geri bildirim gönder",
+    "success": {
+      "title": "Geri bildiriminiz için teşekkürler!",
+      "message": "Gelişmemize yardımcı olmak için zaman ayırdığınız için teşekkür ederiz."
+    }
+  }
+}

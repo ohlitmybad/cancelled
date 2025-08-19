@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Cancelled - DataMB Pro</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0;
+      padding-top: 0;
+    }
+    
+    .card {
+      background-color: #333333;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.1);
+      margin: 0;
+    }
+    
+    img.logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
+      opacity: 0.74;
+    }
+    
+    h1 {
+      color: #ffffff;
+      margin-bottom: 0.75rem;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    
+    p {
+      color: #e0e0e0;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .feedback-section {
+      background: #333333;
+      padding: 0.75rem;
+      border-radius: 6px;
+      margin: 0.75rem 0;
+    }
+    
+    .feedback-section h3 {
+      color: #cccccc;
+      font-size: 0.95rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+    
+    textarea {
+      width: 100%;
+      height: 60px;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border: 1px solid #555;
+      border-radius: 4px;
+      font-size: 13px;
+      resize: none;
+      font-family: inherit;
+      background: #1a1a1a;
+      color: #ffffff;
+      transition: border-color 0.2s ease;
+    }
+    
+    textarea:focus {
+      outline: none;
+      border-color: #3498db;
+    }
+
+    
+    .buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 0.5rem;
+      margin: 1rem 0;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .buttons a, button {
+      background: #3498db;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 36px;
+      white-space: nowrap;
+      flex: 1;
+      min-width: 120px;
+    }
+    
+    .buttons a:hover, button:hover {
+      background: #2980b9;
+      transform: translateY(-1px);
+    }
+    
+    .secondary {
+      background: #555;
+      color: #ffffff;
+      border: 1px solid #666;
+    }
+    
+    .secondary:hover {
+      background: #666;
+      border-color: #777;
+    }
+    
+    .success-message {
+      background: #2d5a2d;
+      color: #90ee90;
+      padding: 1rem;
+      border-radius: 6px;
+      margin: 1rem 0;
+      border: 1px solid #4a7c4a;
+      display: none;
+      animation: slideIn 0.3s ease-out;
+      font-weight: 500;
+    }
+    
+    .success-message.show {
+      display: block;
+    }
+    
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .success-icon {
+      font-size: 1.1rem;
+      margin-right: 0.5rem;
+    }
+    
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      body {
+        padding: 16px;
+      }
+      
+      .card {
+        padding: 1.5rem;
+        border-radius: 8px;
+      }
+      
+      h1 {
+        font-size: 1.75rem;
+      }
+      
+      .buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      
+      .buttons a, button {
+        padding: 0.5rem 0.75rem;
+        min-height: 36px;
+        width: 100%;
+      }
+      
+      .feedback-section {
+        padding: 0.75rem;
+        margin: 1rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="https://datamb.football/logopro.png" alt="DataMB Pro Logo" class="logo">
+      <h1 data-i18n="cancellation.title">Sorry to see you go!</h1>
+      <p data-i18n="cancellation.message">Your subscription has been successfully cancelled.<br><br>
+          Access to <strong>DataMB Pro</strong> has ended immediately. This process is automatic and unfortunately out of our control.<br><br>
+          If you'd like to continue using Pro for the remainder of your paid period, please contact us.</p>
+          
+      <div class="buttons">
+        <a href="https://datamb.football" class="secondary" data-i18n="cancellation.back_to_free">Back to Free</a>
+        <a href="https://datamb.football/join" data-i18n="cancellation.resubscribe">Resubscribe to Pro</a>
+        <a href="https://datamb.football/guide#contact" data-i18n="cancellation.contact">Contact Us</a>
+      </div>
+
+      <!-- Feedback Form -->
+      <div class="feedback-section">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdmjELX1xHa_66jF_vzNr9w3cciyoGJR5B9H5V0Q1MOV7uo0w/formResponse" 
+        method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+          <h3 data-i18n="feedback.title">What made you decide to leave?</h3>
+          <textarea name="entry.703389769" id="feedback" data-i18n-placeholder="feedback.placeholder" placeholder="Your feedback helps us improve..."></textarea>
+          <button type="submit" data-i18n="feedback.submit">Submit Feedback</button>
+        </form>
+      </div>
+
+      <!-- Invisible iframe so Google redirect is hidden -->
+      <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+      <!-- Success Message -->
+      <div id="successMessage" class="success-message">
+        <strong data-i18n="feedback.success.title">Thank you for your feedback!</strong><br>
+        <span data-i18n="feedback.success.message">We appreciate you taking the time to help us improve.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Translation system
+    function getPreferredLanguage() {
+      // PRIORITY 1: Check URL parameter first
+      const urlParams = new URLSearchParams(window.location.search);
+      const langParam = urlParams.get('lang');
+      if (langParam) {
+        return langParam;
+      }
+      // PRIORITY 2: Check localStorage
+      const storedLang = localStorage.getItem('preferredLanguage');
+      if (storedLang) {
+        return storedLang;
+      }
+      // PRIORITY 3: Use browser language
+      return getBrowserLanguage() || 'en';
+    }
+
+    function getBrowserLanguage() {
+      return navigator.language.slice(0, 2);
+    }
+
+    function applyLanguage(language) {
+      console.log('Applying language:', language);
+
+      if (language === 'en') {
+        return; // Already in English
+      }
+
+      fetch(`locales/${language}.json`)
+        .then(response => {
+          return response.ok ? response.json() : null;
+        })
+        .then(translations => {
+          if (translations) {
+            document.querySelectorAll('[data-i18n]').forEach(element => {
+              const keys = element.getAttribute('data-i18n').split('.');
+              let value = translations;
+              for (const key of keys) {
+                value = value[key];
+                if (!value) break;
+              }
+              if (value) {
+                element.innerHTML = value;
+              }
+            });
+
+            // Handle placeholder translations
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
+              const keys = element.getAttribute('data-i18n-placeholder').split('.');
+              let value = translations;
+              for (const key of keys) {
+                value = value[key];
+                if (!value) break;
+              }
+              if (value) {
+                element.placeholder = value;
+              }
+            });
+          }
+        })
+        .catch(error => {
+          console.log('Translation not available for language:', language);
+        });
+    }
+
+    // Apply language on page load
+    const language = getPreferredLanguage();
+    applyLanguage(language);
+
+    // Form submission handling
+    const form = document.querySelector("form");
+    const successMessage = document.getElementById("successMessage");
+    const iframe = document.querySelector("iframe[name='hidden_iframe']");
+
+    form.addEventListener("submit", function(e) {
+      // Show temporary success message immediately
+      successMessage.classList.add("show");
+
+      // Wait for the iframe to load (which happens after Google Forms processes the submission)
+      iframe.onload = function() {
+        // Clear the form
+        form.reset();
+
+        // Optionally hide the success message after 5 seconds
+        setTimeout(() => {
+          successMessage.classList.remove("show");
+        }, 5000);
+      };
+    });
+  </script>
+  
+</body>
+</html>

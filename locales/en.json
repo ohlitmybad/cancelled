@@ -1,0 +1,18 @@
+{
+  "cancellation": {
+    "title": "Sorry to see you go!",
+    "message": "Your subscription has been successfully cancelled.<br><br>Access to <strong>DataMB Pro</strong> has ended immediately. This process is automatic and unfortunately out of our control.<br><br>If you'd like to continue using Pro for the remainder of your paid period, please contact us.",
+    "back_to_free": "Back to Free",
+    "resubscribe": "Resubscribe to Pro",
+    "contact": "Contact Us"
+  },
+  "feedback": {
+    "title": "What made you decide to leave?",
+    "placeholder": "Your feedback helps us improve...",
+    "submit": "Submit Feedback",
+    "success": {
+      "title": "Thank you for your feedback!",
+      "message": "We appreciate you taking the time to help us improve."
+    }
+  }
+}
