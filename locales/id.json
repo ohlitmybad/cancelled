@@ -1,0 +1,18 @@
+{
+  "cancellation": {
+    "title": "Sayang sekali kamu pergi!",
+    "message": "Langganan kamu telah berhasil dibatalkan.<br><br>Akses ke <strong>DataMB Pro</strong> telah berakhir segera. Proses ini otomatis dan sayangnya di luar kendali kami.<br><br>Jika kamu ingin terus menggunakan Pro untuk sisa periode berbayar, silakan hubungi kami.",
+    "back_to_free": "Kembali ke Gratis",
+    "resubscribe": "Berlangganan Pro lagi",
+    "contact": "Hubungi Kami"
+  },
+  "feedback": {
+    "title": "Apa yang membuat kamu memutuskan untuk pergi?",
+    "placeholder": "Umpan balik kamu membantu kami meningkatkan...",
+    "submit": "Kirim Umpan Balik",
+    "success": {
+      "title": "Terima kasih atas umpan balikmu!",
+      "message": "Kami menghargai kamu meluangkan waktu untuk membantu kami meningkatkan."
+    }
+  }
+}
