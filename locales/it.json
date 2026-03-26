@@ -1,0 +1,14 @@
+{
+  "cancellation": {
+    "title": "Ci dispiace vederti andare!",
+    "message": "Il tuo abbonamento è stato cancellato con successo."
+  },
+  "feedback": {
+    "placeholder": "Cosa ti ha fatto decidere di andartene? Il tuo feedback ci aiuta a migliorare",
+    "submit": "Invia Feedback",
+    "success": {
+      "title": "Grazie per il tuo feedback!",
+      "message": "Apprezziamo che tu abbia dedicato del tempo per aiutarci a migliorare."
+    }
+  }
+}

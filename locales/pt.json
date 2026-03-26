@@ -1,0 +1,14 @@
+{
+  "cancellation": {
+    "title": "Lamentamos ver-te partir!",
+    "message": "A tua subscrição foi cancelada com sucesso."
+  },
+  "feedback": {
+    "placeholder": "O que te fez decidir sair? O teu feedback ajuda-nos a melhorar",
+    "submit": "Enviar Feedback",
+    "success": {
+      "title": "Obrigado pelo teu feedback!",
+      "message": "Agradecemos que tenhas dedicado tempo para nos ajudar a melhorar."
+    }
+  }
+}

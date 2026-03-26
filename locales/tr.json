@@ -1,0 +1,14 @@
+{
+  "cancellation": {
+    "title": "Gitmenize üzüldük!",
+    "message": "Aboneliğiniz başarıyla iptal edildi."
+  },
+  "feedback": {
+    "placeholder": "Gitmeye karar vermenize ne sebep oldu? Geri bildiriminiz gelişmemize yardımcı olur",
+    "submit": "Geri bildirim gönder",
+    "success": {
+      "title": "Geri bildiriminiz için teşekkürler!",
+      "message": "Gelişmemize yardımcı olmak için zaman ayırdığınız için teşekkür ederiz."
+    }
+  }
+}

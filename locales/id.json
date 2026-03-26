@@ -1,0 +1,14 @@
+{
+  "cancellation": {
+    "title": "Sayang sekali kamu pergi!",
+    "message": "Langganan kamu telah berhasil dibatalkan."
+  },
+  "feedback": {
+    "placeholder": "Apa yang membuat kamu memutuskan untuk pergi? Umpan balik kamu membantu kami meningkatkan",
+    "submit": "Kirim Umpan Balik",
+    "success": {
+      "title": "Terima kasih atas umpan balikmu!",
+      "message": "Kami menghargai kamu meluangkan waktu untuk membantu kami meningkatkan."
+    }
+  }
+}

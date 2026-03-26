@@ -1,0 +1,14 @@
+{
+  "cancellation": {
+    "title": "Dommage de vous voir partir !",
+    "message": "Votre abonnement a été annulé avec succès."
+  },
+  "feedback": {
+    "placeholder": "Qu'est-ce qui vous a fait décider de partir ? Vos commentaires nous aident à nous améliorer",
+    "submit": "Envoyer le commentaire",
+    "success": {
+      "title": "Merci pour vos commentaires !",
+      "message": "Nous apprécions que vous preniez le temps de nous aider à nous améliorer."
+    }
+  }
+}
