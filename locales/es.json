@@ -1,0 +1,18 @@
+{
+  "cancellation": {
+    "title": "¡Lástima verte ir!",
+    "message": "Tu suscripción ha sido cancelada exitosamente."
+  },
+  "nav": {
+    "backToFree": "Volver a la versión gratuita",
+    "backToPro": "Volver a Pro"
+  },
+  "feedback": {
+    "placeholder": "¿Qué te hizo decidir irte? Tu comentario nos ayuda a mejorar",
+    "submit": "Enviar comentario",
+    "success": {
+      "title": "¡Gracias por tu comentario!",
+      "message": "Apreciamos que te tomes el tiempo de ayudarnos a mejorar."
+    }
+  }
+}

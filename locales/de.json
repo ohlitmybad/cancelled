@@ -1,0 +1,18 @@
+{
+  "cancellation": {
+    "title": "Schade, dass du gehst!",
+    "message": "Dein Abonnement wurde erfolgreich gekündigt."
+  },
+  "nav": {
+    "backToFree": "Zurück zu Gratis",
+    "backToPro": "Zurück zu Pro"
+  },
+  "feedback": {
+    "placeholder": "Was hat dich zum Verlassen bewogen? Dein Feedback hilft uns, uns zu verbessern",
+    "submit": "Feedback senden",
+    "success": {
+      "title": "Danke für dein Feedback!",
+      "message": "Wir schätzen es, dass du dir die Zeit genommen hast, uns zu helfen."
+    }
+  }
+}
