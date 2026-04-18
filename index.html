@@ -75,6 +75,11 @@
       margin-bottom: 0.5rem;
       text-align: center;
     }
+
+    .feedback-section .buttons {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
     
     textarea {
       width: 100%;
@@ -222,6 +227,10 @@
         <form action="https://docs.google.com/forms/d/e/1FAIpQLSdmjELX1xHa_66jF_vzNr9w3cciyoGJR5B9H5V0Q1MOV7uo0w/formResponse" 
         method="POST" target="hidden_iframe" onsubmit="submitted=true;">
           <h3 data-i18n="feedback.title"></h3>
+          <div class="buttons">
+            <a href="https://datamb.football/" class="secondary" data-i18n="nav.backToFree" target="_blank" rel="noopener noreferrer">Back to Free</a>
+            <a href="https://datamb.football/pro/" data-i18n="nav.backToPro" target="_blank" rel="noopener noreferrer">Back to Pro</a>
+          </div>
           <textarea name="entry.703389769" id="feedback" data-i18n-placeholder="feedback.placeholder" placeholder="What made you decide to leave? Your feedback helps us improve"></textarea>
           <button type="submit" data-i18n="feedback.submit">Submit Feedback</button>
         </form>
